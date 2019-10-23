@@ -1,0 +1,19 @@
+前情回顾
+    1. 索引效率
+
+
+
+
+
+
+
+create table publication_author(author_id int not null,publication_id int not null,`签约时间` datetime default now(),primary key(author_id,publication_id),constraint author_fk foreign key(author_id) references )
+
+
+
+
+
+
+练习：
+    使用class1表完成
+    编写一个函数，参数传入两个人的id，返回两个人的年龄差
